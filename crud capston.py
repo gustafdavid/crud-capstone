@@ -240,9 +240,8 @@ def main_menu():
             menu_delete()
         elif choice == "5":
             print("Terima kasih!")
-            sys.exit()
+            break
         else:
             print("Option is not valid")
 
-if __name__ == "__main__":
-    main_menu()
+main_menu()
